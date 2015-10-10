@@ -132,4 +132,9 @@ public class WebController {
 		return modelAndView;
 	}
 
+	@RequestMapping(value = "/cs480/ekcao", method = RequestMethod.GET)
+	String ekcao() {
+		return "Team Eric - Eric Cao";
+	}
+
 }
