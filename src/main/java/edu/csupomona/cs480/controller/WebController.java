@@ -57,7 +57,7 @@ public class WebController {
 		// You can replace this with other string,
 		// and run the application locally to check your changes
 		// with the URL: http://localhost:8080/
-		return "Hi my name is not important. I am created by Eric Cao, Raymond Lee, Jeffrey Li, and Eric Liu. I hope you will enjoy my services, and I personall welcome you in. ;)";
+		return "Hi my name is not important. I am created by Eric Cao, Raymond Lee, Jeffrey Li, and Eric Liu. I hope you will enjoy my services, and I personally welcome you in. ;)";
 	}
 
 	/**
@@ -143,6 +143,11 @@ public class WebController {
 	@RequestMapping(value = "/cs480/ekcao", method = RequestMethod.GET)
 	String ekcao() {
 		return "Team Eric - Eric Cao";
+	}
+	
+	@RequestMapping(value = "/cs480/ekcao", method = RequestMethod.GET)
+	String ericliu() {
+		return "Eric Liu was here.";
 	}
 
 }
