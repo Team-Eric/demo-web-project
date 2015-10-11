@@ -145,7 +145,7 @@ public class WebController {
 		return "Team Eric - Eric Cao";
 	}
 	
-	@RequestMapping(value = "/cs480/ekcao", method = RequestMethod.GET)
+	@RequestMapping(value = "/cs480/ericliu", method = RequestMethod.GET)
 	String ericliu() {
 		return "Eric Liu was here.";
 	}
