@@ -150,4 +150,6 @@ public class WebController {
 		return "Eric Liu was here.";
 	}
 
+	@RequestMapping(value = "/jeff", method = RequestMethod.GET)
+	String jeff() { return "My very own method/route"; }
 }
